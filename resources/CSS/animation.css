@@ -1,0 +1,22 @@
+
+.fade-in{animation:opac 5s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.fly-up{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.fill-Photo{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{width:0%;opacity:0} to{width:85%;opacity:1}}
+.fill-PTS{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{width:0%;opacity:0} to{width:75%;opacity:1}}
+.fill-VID{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{width:0%;opacity:0} to{width:90%;opacity:1}}
+
+
+
+
+body {
+  margin: 0;
+  height: 1000px;
+  /*background: #F2F3F4;*/
+  background="Resources/Logo/BG2.jpg";
+  background-attachment: fixed;
+}
+
+/* These 2 are just for fade while scrolling*/
+.scrollup {}
+.scrolldown {}
+.title {}
